@@ -62,7 +62,7 @@ final class Cookie {
 		$this->domain = null;
 		$this->httpOnly = true;
 		$this->secureOnly = false;
-		$this->sameSiteRestriction = self::SAME_SITE_RESTRICTION_LAX;
+		$this->sameSiteRestriction = self::SAME_SITE_RESTRICTION_NONE;
 	}
 
 	/**
